@@ -1,0 +1,22 @@
+div.Ju {
+				display: block;
+				background-color: yellow;
+				float: right;
+				margin: 1%;
+				width: 31%;
+				padding-bottom: 31%;
+				border-radius: 5% ;
+		}
+		
+button.one{
+	display: block;
+	float: right;
+	background-color:white;
+	border :1px solid darkorange;
+	margin: 1%;
+	width: 95%;
+	height:30px;
+	color:darkorange;
+	text-align: center;
+	border-radius: 5%;
+	}
