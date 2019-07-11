@@ -77,5 +77,3 @@ window.onload=function(){
 			one[1].style.color='darkorange'
 		}
 }
-function resetcolor(){
-}
