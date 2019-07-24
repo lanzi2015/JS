@@ -1,0 +1,84 @@
+.index-header{
+    background-color: #5fc0cd;
+    height: 3rem;
+    overflow: hidden;
+}
+.header-center{
+    width:100%;
+    position: absolute;
+    margin: 0 auto;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1rem;
+}
+.index-header .header-left{
+    position: relative;
+    float: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor:pointer;
+
+}
+.index-header .header-right{
+    position: relative;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor:pointer;
+
+}
+ .index-login{
+    background-color: #5fc0cd;
+}
+.index-user,.index-password{
+    margin-top: 0.5rem;
+    position: relative;
+    height: 3.4rem;
+    width: 100%;
+}
+
+.icon-user{
+    position: absolute;
+    width:3rem;
+    height: 3.4rem;
+    float: left;
+    left: 0px;
+    background: #fff url(../IMG/icon-user.png)   center / 3rem no-repeat;
+}
+.icon-password{
+    position: absolute;
+    width:3rem;
+    height: 3.4rem;
+    float: left;
+    left: 0px;
+    background: #fff url(../IMG/icon-password.png)   center / 3rem no-repeat;
+}
+.index-panel-user,.index-panel-password{
+    margin-left: 3rem;
+    border: 0 ;
+    height: 3.4rem;
+    width: calc(100% - 3rem);
+
+}
+    
+
+
+.index-login{
+    margin-top: 0.5rem;
+    height: 3.3rem;
+    width: 100%;
+    text-align: center;
+    letter-spacing:0.3rem;
+    font-weight: bolder;
+        cursor:pointer;
+
+}
+.index-forget{
+    color: #5fc0cd;
+    height: 3.3rem;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+    
+}

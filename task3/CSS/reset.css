@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff0f4;
+}
+div,a,p{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "STHeitiSC";
+
+}
+input,button,ol,ul,li{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border:1px #ccc solid;
+    outline:none;
+}
+a{
+    text-decoration: none;
+    display:block;
+    cursor:pointer;
+}
+p{
+    display: block;
+}
+.clearfloat{
+    zoom:1;
+}
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+button {
+    background-color: #5fc0cd; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
