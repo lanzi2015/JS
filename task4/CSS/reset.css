@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+  }
+body{
+    margin:0;
+    padding: 0;
+    border:0;
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+div,p,image,button,a{
+    margin:0;
+    padding: 0;
+    border:0;
+    outline: none;
+    text-decoration: none;
+    font-size:16px;
+}
+ul,li{
+    list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.clearfloat{
+    zoom:1;
+}
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 1px;
+}
